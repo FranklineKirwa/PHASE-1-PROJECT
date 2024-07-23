@@ -38,7 +38,7 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## links
-https://my-json-server.typicode.com/franklynekirwa2/project-complete-1/jobs
+https://franklynekirwa2.github.io/PHASE-1-PROJECT/
 
 ## video link
 https://www.loom.com/share/76bf03371a3940d2b4482b15c278fd80?sid=05f8d8fa-7c0a-43d4-98a7-28da68d9fed0
