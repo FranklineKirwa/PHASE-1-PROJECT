@@ -65,11 +65,11 @@ getJobs();
 
 // Function to fetch the user's location based on IP and get jobs for that location
 const getLocation = async (ip) => {
-    const response = await fetch(`https://project-1-database.vercel.app/jobs${ip}`);
+    const response = await fetch(`https://api.geoapify.com/v1/ipinfo?&apiKey=dfcb79d43b494a1ab258f5dc0bf765f0`);
     const data = await response.json();
 
     console.log(data.city); // Log the city derived from IP
-    getJobsByLocation(data.city);
+    getJobsByLocation(data.city.name);
 }
 
 // Fetch the user's IP address and then fetch their location
