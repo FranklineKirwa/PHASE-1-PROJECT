@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://example.com/background.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+ }
+
+ header {
+    background-color: rgba(0, 255, 255, 0.8); /* Semi-transparent aqua */
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ header .logo {
+    font-size: 24px;
+    font-weight: 900;
+ }
+
+ header nav a {
+    color: black;
+    font-weight: 600;
+    margin: 0 10px;
+    text-decoration: none;
+ }
+
+ header nav a:hover {
+    text-decoration: underline;
+ }
+
+ .section {
+    display: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 8px;
+    margin: 20px;
+ }
+
+ #home {
+    display: block;
+    text-align: center;
+    padding: 50px 20px;
+ }
+
+ #home h1 {
+    margin-bottom: 20px;
+ }
+
+ #home form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ #home form input,
+ #home form button {
+    padding: 8px;
+    margin: 8px;
+    font-size: 16px;
+ }
+
+ #home form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+ #home form button:hover {
+    background-color: purple;
+ }
+
+ .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .job-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: beige;
+ }
+
+ .job-card h3 {
+    margin-top: 0;
+ }
+
+ footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+ }
+
+ .contact-page,
+ .login-page,
+ .application-page {
+    text-align: center;
+ }
+
+ .contact-page form,
+ .login-page form,
+ .application-page form {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+ }
+
+ .contact-page label,
+ .login-page label,
+ .application-page label {
+    display: block;
+    margin: 10px 0 5px;
+ }
+
+ .contact-page input,
+ .contact-page textarea,
+ .login-page input,
+ .application-page input,
+ .application-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+ }
+
+ .contact-page textarea,
+ .application-page textarea {
+    height: 150px;
+    resize: none;
+ }
+
+ .contact-page button,
+ .login-page button,
+ .application-page button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+
+ .contact-page button:hover,
+ .login-page button:hover,
+ .application-page button:hover {
+    background-color: #555;
+ }
+
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+ }
+
+ .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+ }
+ .close:hover,
+ .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+ }
+input,select{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+

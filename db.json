@@ -1,0 +1,36 @@
+{
+    "jobs": [
+        {
+          "title": "Software Engineer",
+          "company": "Technovation Inc.",
+          "location": "Nairobi",
+          "description": "We are looking for a talented Software Engineer to join our growing team. You will be responsible for designing, developing, and testing high-quality software applications. Experience with specific technologies like Java, Python, or JavaScript is a plus."
+        },
+        {
+          "title": "Graphic Designer",
+          "company": "Marketing Mania",
+          "location": "Remote (US)",
+          "description": "Do you have a passion for creating visually stunning designs? We need a skilled Graphic Designer to develop creative assets for our marketing campaigns and social media presence. Experience with Adobe Creative Suite is essential."
+        },
+        {
+          "title":  "Customer Success Manager",
+          "company": "Happy Customers Co.",
+          "location": "Nairobi",
+          "description": "Are you passionate about building relationships and exceeding customer expectations?  We are seeking a Customer Success Manager to build strong relationships with our clients and ensure their ongoing satisfaction with our products and services."
+        },
+        {
+          "title": "Content Marketing Specialist",
+          "company": "Content Kings",
+          "location": "Eldoret",
+          "description": "Do you have a knack for creating engaging and informative content? We need a Content Marketing Specialist to develop and implement a content strategy that attracts new audiences and drives brand awareness."
+        },
+        {
+          "title": "Data Analyst",
+          "company": "Insights R Us",
+          "location": "Nairobi",
+          "description": "Are you a data whiz with a knack for uncovering insights? We are seeking a Data Analyst to collect, analyze, and interpret data to inform strategic decision-making."
+        }
+      ]
+
+   }
+
